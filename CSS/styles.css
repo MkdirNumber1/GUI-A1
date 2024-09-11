@@ -2,18 +2,24 @@
 CSS file:
 */
 
-
+/*
+Sets the font size, distance from the bottom, and line height for list items */
 .styled-list li {
     font-size: 1.2em;
     margin-bottom: 10px;
     line-height: 1.5;
 }
 
+/*
+Sets the height and removes default margins for html and body
+Note: Setting height for both html and body ensures full height layout */
 html, body {
     height: 100%;
-    margin: auto;
+    margin: 0;
 }
 
+/*
+Centers the content and arranges the body elements in a vertical column */
 body {
     display: flex;
     justify-content: center;
@@ -21,33 +27,43 @@ body {
     flex-direction: column;
 }
 
+/*
+Sets the width, centers the table, and removes space between table cells */
 table {
     width: 50%;
     margin: 0 auto;
     border-collapse: collapse;
 }
 
+/*
+Adds border, padding, and centers text in table cells */
 td {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
 
+/*
+Centers the contents of the image container */
 .image-container {
-    text-align: center; /* Center the content within the container */
+    text-align: center;
 }
 
+/*
+Centers the image, sets its width, maintains aspect ratio, and rounds corners */
 .styled-image {
     display: block;
-    margin: 0 auto; /* Center the image */
-    width: 300px; /* Set the width of the image */
-    height: auto; /* Maintain the aspect ratio */
-    border-radius: 15px; /* Add rounded corners */
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
 }
 
+/*
+Sets the font size, color, and distance from the next text or image for h6 tag */
 h6 {
     font-size: 0.8em;
     color: gray;
-    margin-top: 5px; /* Add some space between the image and the text */
+    margin-top: 5px;
 }
 
