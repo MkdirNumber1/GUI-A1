@@ -1,23 +1,82 @@
+<!--
+filename: index.html
+Author: Evan Kuczynski
+Date of file creation: 9/4/24
+Description: This second page holds a table to show when each type of loop
+			 would be best used. It also gives some extra details.
+-->
 
-
+<!--
+Setting html 5, the language, and the link to the css sheet, and my website name
+-->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
 	<title>Extra Page</title>
 </head>
+
+
 <body>
 
 <h1>More about Loops in C++</h1>
+<p>See the table below on how and when each type of loop should be used.</p>
+<table>
+	<thead>
+	<tr>
+		<th>Loop Type</th>
+		<th>When to Use</th>
+		<th>Example</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>for</td>
+		<td>When you know the exact number of iterations needed.</td>
+		<td>
+                    <pre><code>for (int i = 0; i < 10; i++) {
+    // code to be executed
+}</code></pre>
+		</td>
+	</tr>
+	<tr>
+		<td>while</td>
+		<td>When the number of iterations is not known and depends on a condition.</td>
+		<td>
+                    <pre><code>while (condition) {
+    // code to be executed
+}</code></pre>
+		</td>
+	</tr>
+	<tr>
+		<td>do-while</td>
+		<td>When you need to execute the code block at least once, regardless of the condition.</td>
+		<td>
+                    <pre><code>do {
+    // code to be executed
+} while (condition);</code></pre>
+		</td>
+	</tr>
+	</tbody>
+</table>
+
+
 <p>
-	See the table below on how and when each type of loop
-	should be used.
+	Now that you know a when to use each type of loop, go on to the next section and try the practice problems.
+	If you still feel uncomfortable please go back a page and reread.
 </p>
 
+
+<!--
+References to travel to the other page available-->
 <a href="practiceProblems.html">Go to the practice problems</a>
+<a href="index.html">Go to the previous section</a>
 
 
+<p>&copy;Evan Kuczynski 2024</p>
+
+
+<!--End of body and html-->
 </body>
 </html>
