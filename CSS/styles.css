@@ -1,5 +1,8 @@
 /*
 CSS file:
+Author: Evan Kuczynski
+Date of file creation: 9/4/24
+Description: Set the CSS for the 3 web pages.
 */
 
 /*
@@ -11,21 +14,15 @@ Sets the font size, distance from the bottom, and line height for list items */
 }
 
 /*
-Sets the height and removes default margins for html and body
-Note: Setting height for both html and body ensures full height layout */
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-/*
 Centers the content and arranges the body elements in a vertical column */
-body {
+body, section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100%;
 }
+
 
 /*
 Sets the width, centers the table, and removes space between table cells */
@@ -65,5 +62,12 @@ h6 {
     font-size: 0.8em;
     color: gray;
     margin-top: 5px;
+}
+
+/*
+Sets the text width and centers it for paragraphs*/
+p {
+    text-align: center;
+    max-width: 1000px
 }
 
